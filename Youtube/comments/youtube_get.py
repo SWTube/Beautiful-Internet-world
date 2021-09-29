@@ -1,6 +1,8 @@
 import pandas
 from googleapiclient.discovery import build
 
+# pip install --upgrade google-api-python-client
+
 # YOUTUBEAPI, VIDEOID만 수정하면 바로 동작합니다.
 # get Google Youyube Api key : https://console.cloud.google.com/apis/dashboard
 
