@@ -7,7 +7,7 @@ from googleapiclient.discovery import build
 # get Google Youyube Api key : https://console.cloud.google.com/apis/dashboard
 
 comments = list()
-api_obj = build('youtube', 'v3', developerKey = "AIzaSyBZPe4dDCn9xflZ_vFthMjey9KAPLj2jmM")
+api_obj = build('youtube', 'v3', developerKey = "#API_KEY")
 response = api_obj.commentThreads().list(part='snippet,replies', videoId="hiv9IdOOIH0", maxResults=100).execute() #videoID is video's Only code
 
 while response:
