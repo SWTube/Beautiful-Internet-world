@@ -10,7 +10,7 @@ uploaded = files.upload()
 
 API_SERVICE_NAME = 'youtube'
 API_VERSION = 'v3'
-CLIENT_SECRET_FILE = 'client_secret_850373388747-p2ov8rimve759a2vq62sjjkbrmenijgb.apps.googleusercontent.com.json'
+CLIENT_SECRET_FILE = 'API!!!!!!!!!!'
 
 # [ 사용할 권한 명시 ]
 # 1. 유튜브 계정 보기(youtube.readonly)
